@@ -1,27 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import WelcomeF from './WelcomeF';
 function App() {
-  const name = 'Yeabsira';
-  const element = <h1>Hello, {name}</h1>;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          
-          Learn React
-        </a>
-       {element}
-      </header>
+     <WelcomeF name= "Yeab" id="29"/>
     </div>
   );
 }
