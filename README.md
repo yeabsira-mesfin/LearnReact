@@ -72,3 +72,5 @@
     # Linters and Formatters (ESLint, Prettier)
     # Code Structure and Best Practices
     # Design Patterns in React (Container/Presentational, Higher#Order Components, Render Props)
+
+# There are three life-cycle phases.
