@@ -5,7 +5,7 @@ import Counter from './Counter';
 import React from 'react';
 import { ThemeProvider } from './ThemeContext';
 import ThemedComponent from './ThemedComponent';
-
+import Button from './Button';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       </ThemeProvider>
      <WelcomeF name= "Yeab" id="29"/>
      <Counter/>
-
+     <Button/>
     </div>
   );
 }
