@@ -5,8 +5,11 @@ const Counter = () => {
      const increment = () => {
         setCount(count + 1)
      }
+     const style  = {
+      margin:'20px'
+     }
   return (
-    <div>
+    <div style={style}>
         <p>{count}</p>
         <button onClick={increment}>Increment</button>
     </div>

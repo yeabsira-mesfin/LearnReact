@@ -1,17 +1,20 @@
 import React,{useState} from 'react'
 
 const Button = () => {
-    const [theme, setTheme] = useState('green');
+    const [theme, setTheme] = useState('blue');
 
     const toggleTheme = () => {
-        setTheme((preTheme) => (preTheme) === 'green' ? 'red': 'green')
+        setTheme((preTheme) => (preTheme) === 'blue' ? 'red': 'blue')
     }
     
     const styles = {
-        backgroundColor: theme ==='green' ? 'red': 'green',
-        color: theme === 'green' ? 'green' : 'red',
+        backgroundColor: theme ==='blue' ? 'red': 'blue',
+        color: theme === 'blue' ? 'blue' : 'red',
+        margin: 'auto',
         padding: '29px',
-        textAlign: 'center'
+        textAlign: 'center',
+        width:'200px',
+       
         
     };
   return (
