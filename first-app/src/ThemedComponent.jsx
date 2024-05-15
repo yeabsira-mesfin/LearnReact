@@ -9,7 +9,8 @@ const ThemedComponent = () => {
     color: theme === 'light' ? '#000': '#fff',
     padding: '20px',
     textAlign: 'center',
-    minHeight: '10vh'
+    minHeight: '10vh',
+    
   };
 
   return (
