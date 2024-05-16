@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
-
+import Form from './Form';
 
 function App() {
   const value = 'This is the context value';
@@ -43,7 +43,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
      </Router>
-    
+      <Form/>
     </div>
   );
 }
