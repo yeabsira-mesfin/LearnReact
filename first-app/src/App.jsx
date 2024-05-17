@@ -12,6 +12,7 @@ import About from './About';
 import Contact from './Contact';
 import Form from './Form';
 // import SideEffects from './SideEffects';
+import SyledContainer from './SyledContainer';
 function App() {
   const value = 'This is the context value';
   return (
@@ -45,6 +46,7 @@ function App() {
      </Router>
       <Form/>
       {/* <SideEffects/> */}
+      <SyledContainer/>
     </div>
   );
 }
