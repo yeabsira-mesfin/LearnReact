@@ -17,7 +17,7 @@ function App() {
   const value = 'This is the context value';
   return (
     <div className="App">
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <ThemedComponent/>
       </ThemeProvider>
 
@@ -44,9 +44,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
      </Router>
-      <Form/>
+      <Form/> */}
       {/* <SideEffects/> */}
       <SyledContainer/>
+      <h1>Hello, Testing!</h1>
     </div>
   );
 }

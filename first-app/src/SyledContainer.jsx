@@ -15,6 +15,7 @@ cursor: pointer;
 &:hover {
     background: darkviolet;
 }
+
 `
 
 const SyledContainer = () => {
