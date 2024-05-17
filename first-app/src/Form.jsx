@@ -7,7 +7,7 @@ const Form = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert(`Name: ${name}, Email: ${email}`)
+        alert(` Name: ${name} \n Email: ${email}`)
     }
     
   return (
