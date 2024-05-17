@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import WelcomeF from './WelcomeF';
 import Counter from './Counter';
-import React from 'react';
+import React, { useState } from 'react';
 import { ThemeProvider } from './ThemeContext';
 import ThemedComponent from './ThemedComponent';
 import Button from './Button';
@@ -13,7 +13,10 @@ import Contact from './Contact';
 import Form from './Form';
 // import SideEffects from './SideEffects';
 import SyledContainer from './SyledContainer';
+import ChildComponent from './ChildComponent ';
 function App() {
+  const [count, setCount] = useState(0);
+  const [text, setText] = useState('');
   const value = 'This is the context value';
   return (
     <div className="App">
@@ -47,7 +50,9 @@ function App() {
       <Form/> */}
       {/* <SideEffects/> */}
       <SyledContainer/>
-      <h1>Hello, Testing!</h1>
+      <p>{count}</p>
+      <button onClick={() => setCount(count +1)}>Increment</button>
+      <ChildComponent/>
     </div>
   );
 }
