@@ -11,7 +11,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Form from './Form';
-
+// import SideEffects from './SideEffects';
 function App() {
   const value = 'This is the context value';
   return (
@@ -44,6 +44,7 @@ function App() {
       </Routes>
      </Router>
       <Form/>
+      {/* <SideEffects/> */}
     </div>
   );
 }
