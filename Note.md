@@ -50,7 +50,7 @@
 # Presentation Components: Handle Rendering UI's.
 # Higher-Order-Components: (HOC's) => are functions that receive components and return components with additional behavior or props.
 
-<!-- . Build Projects
+<!-- 1. Build Projects
 Start building real-world projects to apply what you've learned.
 Choose projects of increasing complexity to challenge yourself.
 Consider projects like:
